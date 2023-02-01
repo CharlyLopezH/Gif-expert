@@ -1,8 +1,9 @@
 //Alternativa a la opción de mandar la función al hijo
+//En este ejercicio el hijo emite información al padre, veamos cómo
 
 import { useState } from "react";
 
-//En este ejercicio el hijo emite información al padre, veamos cómo
+//Recibimos la función (desestructurada)
 export const InputCategory2 =({onNewCategory})=>{
     
     const [inputValue,setInputValue]=useState('');
